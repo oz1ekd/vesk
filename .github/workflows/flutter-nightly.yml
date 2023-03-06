@@ -1,10 +1,10 @@
 name: Flutter Nightly Build
 
-on:
-  schedule:
-    # schedule build every night
-    - cron: "0 0 2 * *"
-  workflow_dispatch:
+#on:
+ # schedule:
+ #   # schedule build every night
+ #   - cron: "0 0 2 * *"
+  #workflow_dispatch:
 
 env:
   LLVM_VERSION: "15.0.6"
